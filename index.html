@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Restaurant Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Your Orders</a></li>
+          <li><a href="#">Wallet</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="search" placeholder="Search Food Item">
+        <button onclick="searchMenu()">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>WEEKEND SPECIAL</h1>
+      <p>Delicious Food Menu</p>
+      <div class="menu-items" id="menuItems">
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Restaurant Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
